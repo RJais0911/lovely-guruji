@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { AnimatePresence } from "framer-motion";
 // import Script from "next/script";
 import Header from "../components/Header";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return (
@@ -21,6 +21,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         >
           <Component {...pageProps} />
         </AnimatePresence>
+        <Footer/>
     </ThemeProvider>
   );
 }
