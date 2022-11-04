@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ThemeProvider } from "next-themes";
 import { AnimatePresence } from "framer-motion";
 // import Script from "next/script";
-// import Header from "../components/Header";
+import Header from "../components/Header";
 // import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             <title>Lovely Guruji</title>
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         </Head>
+        <Header/>
         <AnimatePresence
           exitBeforeEnter
           initial={false}
