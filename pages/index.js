@@ -1,8 +1,13 @@
 import React from 'react'
+import Courses from '../components/Courses'
+import Videos from '../components/Videos'
 
 function index() {
   return (
-    <div>index</div>
+    <div>
+      <Courses/>
+      <Videos/>
+    </div>
   )
 }
 
