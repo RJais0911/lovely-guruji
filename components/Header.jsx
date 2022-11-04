@@ -16,6 +16,7 @@ function Header() {
         <div className="p-5 font-poppins  mx-auto flex max-w-7xl text-lg items-center justify-between text-black dark:text-white">
           <div className="flex space-x-6">
             <div className="hidden md:flex space-x-8">
+               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="https://ik.imagekit.io/jabedzaman/lovely-guruji/logo_DExChackXZ?ik-sdk-version=javascript-1.4.3&updatedAt=1667510424119" width={200} alt="" />
             </div>
           </div>
