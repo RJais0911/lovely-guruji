@@ -33,7 +33,7 @@ function Header() {
               <Link href="/#Blogs">Dev Talks</Link>
             </div>
             <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:underline underline-offset-3 lg:inline hidden">
-              <Link href="/#Contact">Contact</Link>
+              <Link href="/#Contact">Solve Doubts</Link>
             </div>
             <div
               className="bg-white text-black cursor-pointer border-black dark:border-white dark:bg-black dark:text-white p-1 border rounded-full"
