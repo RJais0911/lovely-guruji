@@ -1,5 +1,6 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import Layout from "./Layout";
+import Link from "next/link";
 
 export default function Example() {
   return (
@@ -126,12 +127,11 @@ export default function Example() {
                   />
                   <label htmlFor="checkbox" className="text-base text-gray-500">
                     Agree to {""}
-                    <a
-                      href=""
-                      className="font-ubuntu selection:text-gray-700 underline"
-                    >
-                      Terms and Condtitions
-                    </a>
+                    <span className="font-ubuntu selection:text-gray-700 underline">
+                      <Link href="/termsandcondition">
+                        Terms and Condtitions
+                      </Link>
+                    </span>
                   </label>
                 </div>
                 <div>

@@ -16,6 +16,6 @@ The dev talks provides you best articles to inform you about the latest tech kno
 - [ ] Add Smooth Scroll
 - [ ] Add Images
 - [ ] Add Dynamic Stats
-- [ ] Add terms and contion
+- [x] Add terms and contion
 - [ ] Add banner
 - [ ] Add Vidoes

@@ -2,7 +2,7 @@ import React from "react";
 import Blogs from "../components/Blogs";
 import Stats from "../components/Stats";
 import Courses from "../components/Courses";
-import Videos from "../components/Videos";
+import Box from "../components/Box";
 import Contact from "../components/Contact";
 import Carousal from "../components/Carousal";
 
@@ -13,7 +13,7 @@ function index() {
       <div id="Courses">
         <Courses />
       </div>
-      <Videos />
+      <Box />
       <Stats />
       <div id="Blogs">
         <Blogs />
