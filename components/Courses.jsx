@@ -15,7 +15,7 @@ function Courses() {
               <div className="h-1 w-20 dark:bg-orange-600 bg-orange-500 rounded"></div>
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Choose from 204,000 online video courses with new additions
+              Choose from online video courses with new additions
               published every month
             </p>
           </div>
