@@ -1,8 +1,7 @@
 import "../styles/globals.css";
 import Head from "next/head";
 import { ThemeProvider } from "next-themes";
-import { AnimatePresence } from "framer-motion";
-import Script from "next/script";
+import { AnimatePresence } from "framer-motion"; 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -12,6 +11,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
       <Head>
         <title>Lovely Guruji</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+          {/* eslint-disable-next-line @next/next/no-page-custom-font */}
           <link
             href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
             rel="stylesheet"
