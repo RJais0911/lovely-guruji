@@ -17,7 +17,6 @@ The dev talks provides you best articles to inform you about the latest tech kno
 - [ ] Add Images
 - [x] Add Dynamic Stats
 - [x] Add terms and contion
-- [ ] Add quiz
-- [ ] Add videos
+- [x] Add quiz
+- [x] Add videos
 - [ ] Add Tutorse
-
