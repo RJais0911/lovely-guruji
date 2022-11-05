@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -38,6 +39,10 @@ function Footer() {
             </a>
           </div>
         </nav>
+        {/* eslint-disable-next-line @next/next/link-passhref */}
+        <Link href="/feedback">
+          <p className="mt-8 text-base leading-6 text-center text-gray-400 cursor-pointer">Share feedback</p>
+        </Link>
         <p className="mt-8 text-base leading-6 text-center text-gray-400">
           © 2022 Lovely Guruji . All rights reserved.
         </p>

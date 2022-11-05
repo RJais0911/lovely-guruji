@@ -20,3 +20,4 @@ The dev talks provides you best articles to inform you about the latest tech kno
 - [x] Add quiz
 - [x] Add videos
 - [ ] Add Tutorse
+- [x] Add Feedback form
