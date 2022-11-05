@@ -26,7 +26,7 @@ export default function Example() {
                 {item.name}
               </dt>
               <dd className="mt-1 text-3xl font-semibold dark:text-gray-100 text-gray-900"> 
-                <CountTo from={0} digits={2} to={item.stat} speed={1000}>{fn}</CountTo>
+                <CountTo from={0} digits={2} to={item.stat} speed={2000}>{fn}</CountTo>
               </dd>
             </div>
           ))}
