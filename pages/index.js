@@ -7,17 +7,19 @@ import Contact from "../components/Contact";
 import Carousal from "../components/Carousal";
 import Categories from "../components/Categories";
 import Videos from "../components/Videos";
+import Test from "../components/Test"; 
 
 function index() {
   return (
     <div>
       <Carousal />
-      <Stats />
+      <Stats /> 
       <div id="Courses">
         <Courses />
       </div>
       <Box />
       <Videos/>
+      <Test/>
       <div id="Blogs">
         <Blogs />
       </div>
