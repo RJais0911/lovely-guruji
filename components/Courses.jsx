@@ -1,45 +1,67 @@
 import React from "react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
+import Layout from "./Layout";
 import Link from "next/link";
 
 function Courses() {
   return (
-    <section className="mb-10 Courses max-w-3xl p-5 mx-auto bg-white dark:bg-black">
-      <div className="container mx-auto">
-        <h2 className="text-3xl md:text-5xl text-center font-ubuntu font-semibold tracking-tight">
-          Courses
-        </h2>
-        <p className="mt-2 text-lg font-ubuntu text-gray-600 dark:text-gray-200">
-        </p>
-        <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-8 sm:px-8 xl:px-0">
-              {/* eslint-disable-next-line @next/next/link-passhref */}
-              <Link href="/courses/javascript">
-                <div
-                  className="relative cursor-pointer hover:scale-105 transition p-3 flex flex-col justify-between col-span-4 space-y-3 overflow-hidden"
-                >
-                  <LazyLoadImage
-                    effect="blur"
-                    className="m-0"
+    <Layout>
+      <section className="text-gray-600 dark:text-gray-200 body-font max-w-7xl mx-auto">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col space-y-3 w-full mb-20">
+            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 className="sm:text-3xl text-2xl  font-medium title-font mb-2 dark:text-gray-100 text-gray-900">
+                A broad selection of courses
+              </h1>
+              <div className="h-1 w-20 dark:bg-orange-600 bg-orange-500 rounded"></div>
+            </div>
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+              Choose from 204,000 online video courses with new additions
+              published every month
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center -m-4">
+            <Link href="/courses/javascript">
+              <div className="xl:w-1/4 md:w-1/2 cursor-pointer p-4">
+                <div className="bg-gray-100 dark:bg-gray-900 p-6 rounded-lg">
+                  <img
+                    className="h-40 rounded w-full object-cover object-center mb-6"
                     src="https://ik.imagekit.io/jabedzaman/lovely-guruji/icons8-javascript_3I0NAxGON.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1667514653845"
-                  /> 
+                    alt="content"
+                  />
+                  <h2 className="text-lg text-gray-900  dark:text-gray-100 font-medium title-font mb-4">
+                    JavaScript
+                  </h2>
+                  <p className="leading-relaxed text-base">
+                    JavaScript, often abbreviated as JS, is a programming
+                    language that is one of the core technologies of the World
+                    Wide Web, alongside HTML and CSS.
+                  </p>
                 </div>
-              </Link>  
-              {/* eslint-disable-next-line @next/next/link-passhref */}
-              <Link href="/courses/python">
-                <div
-                  className="relative cursor-pointer hover:scale-105 transition p-3 flex flex-col justify-between col-span-4 space-y-3 overflow-hidden"
-                >
-                  <LazyLoadImage
-                    effect="blur"
-                    className="m-0"
+              </div>
+            </Link>
+            <Link href="/courses/python">
+              <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                <div className="bg-gray-100 dark:bg-gray-900 p-6 rounded-lg">
+                  <img
+                    className="h-40 rounded w-full object-cover object-center mb-6"
                     src="https://ik.imagekit.io/jabedzaman/lovely-guruji/icons8-python-480_wp5b0sN4A.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667514725511"
-                  /> 
+                    alt="content"
+                  />
+                  <h2 className="text-lg text-gray-900 dark:text-gray-100 font-medium title-font mb-4">
+                    Python
+                  </h2>
+                  <p className="leading-relaxed text-base">
+                    A high-level, general-purpose programming language. Its
+                    design philosophy emphasizes code readability with the use
+                    of significant indentation.
+                  </p>
                 </div>
-              </Link>  
+              </div>
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </Layout>
   );
 }
 
