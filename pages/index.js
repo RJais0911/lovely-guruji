@@ -5,6 +5,7 @@ import Courses from "../components/Courses";
 import Box from "../components/Box";
 import Contact from "../components/Contact";
 import Carousal from "../components/Carousal";
+import Categories from "../components/Categories";
 
 function index() {
   return (
@@ -18,6 +19,7 @@ function index() {
       <div id="Blogs">
         <Blogs />
       </div>
+      <Categories/>
       <div id="Contact">
         <Contact />
       </div>
