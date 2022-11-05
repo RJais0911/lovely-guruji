@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply dark:bg-black;
+    scroll-behavior: smooth;
   }
   img {
     @apply mx-auto my-5;

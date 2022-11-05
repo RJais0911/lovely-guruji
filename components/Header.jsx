@@ -10,7 +10,7 @@ function Header() {
   };
   if (theme == null) return null;
   return (
-    <header className="font-extrabold">
+    <header className="font-extrabold sticky top-0 z-20">
       <div className=" dark:bg-black bg-white shadow-lg mb-0 dark:shadow-xl dark:shadow-gray-900  border-b dark:border-black">
         <div className="p-5 font-poppins  mx-auto flex max-w-7xl text-lg items-center justify-between text-black dark:text-white">
           <div className="flex space-x-6"> 
@@ -24,19 +24,16 @@ function Header() {
           </div>
           <div className="flex space-x-10 items-center ">
             <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:underline underline-offset-3 lg:inline hidden">
-              <Link href="Home">Home</Link>
-            </div>
-            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:underline underline-offset-3 lg:inline hidden">
-              <Link href="">About Lovely Guruji</Link>
+              <Link href="/">Home</Link>
             </div>
             <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:underline underline-offset-3">
-              <Link href="">Courses</Link>
+              <Link href="/#Courses">Courses</Link>
             </div>
             <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:underline underline-offset-3 lg:inline hidden">
-              <Link href="">Dev Talks</Link>
+              <Link href="/#Blogs">Dev Talks</Link>
             </div>
             <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:underline underline-offset-3 lg:inline hidden">
-              <Link href="">Contact</Link>
+              <Link href="/#Contact">Contact</Link>
             </div>
             <div
               className="bg-white text-black cursor-pointer border-black dark:border-white dark:bg-black dark:text-white p-1 border rounded-full"
