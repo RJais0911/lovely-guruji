@@ -67,7 +67,7 @@ export default function Example() {
                     minLength={3}
                     id="full-name"
                     autoComplete="name"
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                     placeholder="Full name"
                   />
                 </div>
@@ -81,7 +81,7 @@ export default function Example() {
                     name="email"
                     type="email"
                     autoComplete="email"
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                     placeholder="Email"
                   />
                 </div>
@@ -98,7 +98,7 @@ export default function Example() {
                     name="phone"
                     id="phone"
                     autoComplete="tel"
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                     placeholder="Phone"
                   />
                 </div>
@@ -110,7 +110,7 @@ export default function Example() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border border-gray-300 rounded-md"
                     placeholder="Message"
                     defaultValue={""}
                     minLength={20}
@@ -137,7 +137,7 @@ export default function Example() {
                 <div>
                   <button
                     type="submit"
-                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-ubuntu rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-ubuntu rounded-md text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
                   >
                     Submit
                   </button>
