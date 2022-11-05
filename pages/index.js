@@ -10,11 +10,11 @@ function index() {
   return (
     <div>
       <Carousal />
+      <Stats />
       <div id="Courses">
         <Courses />
       </div>
       <Box />
-      <Stats />
       <div id="Blogs">
         <Blogs />
       </div>

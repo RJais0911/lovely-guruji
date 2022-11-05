@@ -1,13 +1,15 @@
 import Layout from "./Layout";
+import CountTo from 'react-count-to';
 
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
-  { name: "Total Subscribers", stat: "71,897" },
-  { name: "Avg. Open Rate", stat: "58.16%" },
-  { name: "Avg. Click Rate", stat: "24.57%" },
+  { name: "Avg. Engagement", stat: "60.21" },
+  { name: "Avg. Open Rate", stat: "88.16" },
+  { name: "Avg. Click Rate", stat: "64.57" },
 ];
 
 export default function Example() {
+  const fn = value => <span>{value}%</span>
   return (
     <Layout>
       <div className="max-w-4xl mx-auto my-8">
@@ -23,8 +25,8 @@ export default function Example() {
               <dt className="text-sm font-medium text-gray-500 truncate">
                 {item.name}
               </dt>
-              <dd className="mt-1 text-3xl font-semibold dark:text-gray-100 text-gray-900">
-                {item.stat}
+              <dd className="mt-1 text-3xl font-semibold dark:text-gray-100 text-gray-900"> 
+                <CountTo from={0} digits={2} to={item.stat} speed={1000}>{fn}</CountTo>
               </dd>
             </div>
           ))}
