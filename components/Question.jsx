@@ -22,10 +22,13 @@ const Question = ({
     }
   };
 
-  try{
-
+  try {
     handleScore(score);
-  }catch{(err) => {console.log(err)}}
+  } catch {
+    (err) => {
+      console.log(err);
+    };
+  }
 
   return (
     <div>
@@ -39,7 +42,7 @@ const Question = ({
               {options.map((option) => {
                 return (
                   <p
-                    className=" font-medium drop-shadow-sm my-2 text-black dark:text-white p-3 rounded-xl pl-5 hover:bg-gray-100 transition-all cursor-pointer"
+                    className=" font-medium drop-shadow-sm my-2 text-black dark:text-white p-3 rounded-xl pl-5 lg:hover:bg-gray-100 transition-all cursor-pointer"
                     onClick={async () => {
                       await handleAnswer(option);
                       handleQuestion();

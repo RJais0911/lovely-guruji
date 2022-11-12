@@ -22,20 +22,20 @@ function Header() {
             />
           </div>
           <div className="flex space-x-10 items-center ">
-            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:bg-gray-200/90 dark:hover:bg-[#202020] duration-300 transform hover:text-black dark:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
+            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 lg:hover:bg-gray-200/90 dark:lg:hover:bg-[#202020] duration-300 transform lg:hover:text-black dark:lg:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
               <Link href="/">Home</Link>
             </div>
-            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:bg-gray-200/90 dark:hover:bg-[#202020] duration-300 transform hover:text-black dark:hover:text-white px-2 py-1 rounded-lg ">
+            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 lg:hover:bg-gray-200/90 dark:lg:hover:bg-[#202020] duration-300 transform lg:hover:text-black dark:lg:hover:text-white px-2 py-1 rounded-lg ">
               <Link href="/#Courses">Courses</Link>
             </div>
-            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:bg-gray-200/90 dark:hover:bg-[#202020] duration-300 transform hover:text-black dark:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
+            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 lg:hover:bg-gray-200/90 dark:lg:hover:bg-[#202020] duration-300 transform lg:hover:text-black dark:lg:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
               <Link href="/#Blogs">Dev Talks</Link>
             </div>
-            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 hover:bg-gray-200/90 dark:hover:bg-[#202020] duration-300 transform hover:text-black dark:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
+            <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 lg:hover:bg-gray-200/90 dark:lg:hover:bg-[#202020] duration-300 transform lg:hover:text-black dark:lg:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
               <Link href="/#Contact">Solve Doubts</Link>
             </div>
             <div
-              className="bg-[#f8f8f8] text-black cursor-pointer border-black hover:text-gray-500 dark:hover:text-gray-500 dark:border-white dark:bg-[#171717] dark:text-white p-1  rounded-full"
+              className="bg-[#f8f8f8] text-black cursor-pointer border-black lg:hover:text-gray-500 dark:lg:hover:text-gray-500 dark:border-white dark:bg-[#171717] dark:text-white p-1  rounded-full"
               onClick={toggleTheme}
             >
               {theme === "dark" ? <FaSun /> : <BsFillMoonStarsFill />}

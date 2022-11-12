@@ -9,7 +9,7 @@ function Footer() {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 lg:hover:text-gray-900"
             >
               About
             </a>
@@ -17,7 +17,7 @@ function Footer() {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 lg:hover:text-gray-900"
             >
               Courses
             </a>
@@ -25,7 +25,7 @@ function Footer() {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 lg:hover:text-gray-900"
             >
               Dev Talks
             </a>
@@ -33,7 +33,7 @@ function Footer() {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 lg:hover:text-gray-900"
             >
               Contact
             </a>

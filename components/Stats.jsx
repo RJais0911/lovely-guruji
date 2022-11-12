@@ -20,7 +20,7 @@ export default function Example() {
           {stats.map((item) => (
             <div
               key={item.name}
-              className="px-4 py-5 lg:text-left text-center  bg-[#fcfcfc] dark:bg-[#171717] hover:scale-105 duration-150 transform dark:shadow-gray-700 shadow rounded-lg overflow-hidden sm:p-6"
+              className="px-4 py-5 lg:text-left text-center  bg-[#fcfcfc] dark:bg-[#171717] lg:hover:scale-105 duration-150 transform dark:shadow-gray-700 shadow rounded-lg overflow-hidden sm:p-6"
             >
               <dt className="text-sm font-medium text-gray-500 truncate">
                 {item.name}

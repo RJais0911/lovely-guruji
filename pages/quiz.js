@@ -98,7 +98,7 @@ const Home = () => {
   };
 
   return (
-    <div className="">
+    <div className="bg-[#fcfcfc] dark:bg-[#171717]">
       <div className="flex flex-col min-h-screen">
         <div className=" justify-center">
           {state === "start" && (

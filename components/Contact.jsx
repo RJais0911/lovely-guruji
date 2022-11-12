@@ -140,7 +140,7 @@ export default function Contact() {
                 <div>
                   <button
                     type="submit"
-                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-ubuntu rounded-md text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-ubuntu rounded-md text-white bg-orange-500 lg:hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
                   >
                     Submit
                   </button>

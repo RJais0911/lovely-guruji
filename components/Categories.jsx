@@ -18,7 +18,7 @@ function Categories() {
                   </h1>
                 </div>
                 <div>
-                  <h2 className="text-orange-500 dark:text-orange-600 text-xl hover:underline underline-offset-4">
+                  <h2 className="text-orange-500 dark:text-orange-600 text-xl lg:hover:underline underline-offset-4">
                     Javascript
                   </h2>
                   <p className="text-gray-800 dark:text-gray-300">
@@ -26,7 +26,7 @@ function Categories() {
                   </p>
                 </div>
                 <div>
-                  <h2 className="text-orange-500 dark:text-orange-600 text-xl hover:underline underline-offset-4">
+                  <h2 className="text-orange-500 dark:text-orange-600 text-xl lg:hover:underline underline-offset-4">
                     Python
                   </h2>
                   <p className="text-gray-800 dark:text-gray-300">
@@ -41,7 +41,7 @@ function Categories() {
                   </h1>
                 </div>
                 <div>
-                  <h2 className="text-orange-500 dark:text-orange-600 text-xl hover:underline underline-offset-4">
+                  <h2 className="text-orange-500 dark:text-orange-600 text-xl lg:hover:underline underline-offset-4">
                     Javascript
                   </h2>
                   <p className="text-gray-800 dark:text-gray-300">
@@ -49,7 +49,7 @@ function Categories() {
                   </p>
                 </div>
                 <div>
-                  <h2 className="text-orange-500 dark:text-orange-600 text-xl hover:underline underline-offset-4">
+                  <h2 className="text-orange-500 dark:text-orange-600 text-xl lg:hover:underline underline-offset-4">
                     Python
                   </h2>
                   <p className="text-gray-800 dark:text-gray-300">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const StartCard = ({handleState, handleTimerStart}) => {
+const StartCard = ({ handleState, handleTimerStart }) => {
   return (
     <div className="flex flex-col justify-center h-[90vh]">
       <div className="lg:w-6/12 w-10/12 mx-auto px-10 py-16 outline outline-slate-300 outline-2 rounded-3xl shadow-xl">
@@ -14,7 +14,13 @@ const StartCard = ({handleState, handleTimerStart}) => {
           Keep in ind that incorrect answers will penalize your score/time bey
           ten seconds!
         </p>
-        <button className="bg-skin-main text-black dark:text-white px-3 py-3 rounded-lg hover:bg-gray-100 transition-all shadow-md" onClick={() => {handleState("quiz"); handleTimerStart();}}>
+        <button
+          className="bg-skin-main text-black dark:text-white px-3 py-3 rounded-lg lg:hover:bg-gray-100 transition-all shadow-md"
+          onClick={() => {
+            handleState("quiz");
+            handleTimerStart();
+          }}
+        >
           Start Quiz
         </button>
       </div>

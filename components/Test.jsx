@@ -13,7 +13,7 @@ export default function Example() {
         <div className="mt-8 flex justify-center">
           <div className="ml-3 inline-flex">
             <Link href="/quiz">
-              <p className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md dark:text-orange-100 dark:hover:bg-orange-400 text-orange-500 dark:bg-orange-500 bg-orange-100 hover:bg-orange-200">
+              <p className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md dark:text-orange-100 dark:lg:hover:bg-orange-400 text-orange-500 dark:bg-orange-500 bg-orange-100 lg:hover:bg-orange-200">
                 Take Quiz
               </p>
             </Link>
