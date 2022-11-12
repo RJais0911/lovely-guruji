@@ -13,7 +13,7 @@ The dev talks provides you best articles to inform you about the latest tech kno
 
 - [x] Add Course Resources
 - [x] Add Blogs
-- [ ] Add Smooth Scroll
+- [x] Add Smooth Scroll
 - [ ] Add Images
 - [x] Add Dynamic Stats
 - [x] Add terms and contion

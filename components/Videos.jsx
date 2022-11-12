@@ -1,51 +1,52 @@
 import React from "react";
+import Layout from "../components/Layout";
+
 
 function Videos() {
+  const Videos = [
+    {
+      url: "https://www.youtube.com/embed/6aP9nyTcd44",
+    },
+    {
+      url: "https://www.youtube.com/embed/MJWOw8K_KyI"
+    },
+    {
+      url: "https://www.youtube.com/embed/L-ykUrJrKUA"
+    },
+    {
+      url: "https://www.youtube.com/embed/nMSX-Cv9T8o"
+    }
+  ]
   return (
-    <div className="max-w-7xl mx-auto my-20">
-      <div>
-        <h1 className="lg:text-4xl text-lg mt-20 font-bold lg:text-left text-center">
-          Videos
-        </h1>
-        <p className="lg:text-lg text-sm mt-4 mb-20 font-semibold lg:text-left text-center  dark:text-gray-600 text-gray-400">
-          check out video lectues
-        </p>
-        <div className="flex lg:flex-row flex-col space-y-3 lg:space-y-0 mx-2 justify-evenly">
-          <iframe
-            // width="560"
-            // height="315"
-            src="https://www.youtube.com/embed/6aP9nyTcd44"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            // width="560"
-            // height="315"
-            src="https://www.youtube.com/embed/MJWOw8K_KyI"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            // width="560"
-            // height="315"
-            src="https://www.youtube.com/embed/nMSX-Cv9T8o"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            // width="560"
-            // height="315"
-            src="https://www.youtube.com/embed/L-ykUrJrKUA"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+    <Layout>
+      <section className="text-gray-600 dark:text-gray-200 body-font max-w-7xl mx-auto">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col space-y-3 w-full mb-20">
+            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 className="sm:text-3xl text-2xl  font-medium title-font mb-2 dark:text-gray-100 text-gray-900">
+                Checkout our video lectures
+              </h1>
+              <div className="h-1 w-20 dark:bg-orange-600 bg-orange-500 rounded"></div>
+            </div>
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+              A video lecture can help you understand things even better than a text lecture. We have a wide range of video lectures for you to choose from.
+            </p>
+          </div>
+          <div className="flex lg:flex-row justify-evenly lg:space-y-0 space-y-2 flex-col">
+            {Videos.map((video) => (
+              // eslint-disable-next-line react/jsx-key
+              <iframe
+              src={video.url}
+              width="560"
+              height="315"
+              title="YouTube video player"
+              className="mx-2 max-w-xs h-40 hover:scale-105 transform transition duration-500 ease-in-out rounded-xl hover:shadow-xl" 
+              ></iframe> 
+            ))}
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </Layout>
   );
 }
 

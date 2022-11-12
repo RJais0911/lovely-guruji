@@ -7,23 +7,25 @@ import Contact from "../components/Contact";
 import Carousal from "../components/Carousal";
 import Categories from "../components/Categories";
 import Videos from "../components/Videos";
-import Test from "../components/Test"; 
+import Test from "../components/Test";
+import Lottie from "../components/Lottie";
 
 function index() {
   return (
-    <div>
+    <div className=" bg-[#fcfcfc] dark:bg-[#171717]">
       <Carousal />
-      <Stats /> 
+      <Stats />
       <div id="Courses">
         <Courses />
       </div>
+      <Lottie/>
       <Box />
-      <Videos/>
-      <Test/>
+      <Videos />
+      <Test />
       <div id="Blogs">
         <Blogs />
       </div>
-      <Categories/>
+      <Categories />
       <div id="Contact">
         <Contact />
       </div>

@@ -11,7 +11,7 @@ export default function Example() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div className="bg-white dark:bg-black py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-white dark:bg-[#171717] py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
       <div className="relative max-w-xl mx-auto">
         <svg
           className="absolute left-full transform translate-x-1/2"
@@ -46,7 +46,7 @@ export default function Example() {
             fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)"
           />
         </svg>
-        {/* <svgdark:bg-black
+        {/* <svgdark:bg-[#171717]
           className="absolute right-full bottom-0 transform -translate-x-1/2"
           width={404}
           height={404}
@@ -67,7 +67,7 @@ export default function Example() {
             </pattern>
           </defs>
           <rect width={404} height={404} fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
-        </svgdark:bg-black> */}
+        </svgdark:bg-[#171717]> */}
         <div className="text-center">
           <h2 className="text-3xl font-extrabold font-ubuntu tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">
             Feedback
@@ -95,7 +95,7 @@ export default function Example() {
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
-                  className="py-3 px-4 block w-full dark:bg-black shadow-sm focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
+                  className="py-3 px-4 block w-full dark:bg-[#171717] shadow-sm focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
                   required
                 />
               </div>
@@ -113,7 +113,7 @@ export default function Example() {
                   name="last-name"
                   id="last-name"
                   autoComplete="family-name"
-                  className="py-3 px-4 block w-full dark:bg-black shadow-sm focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
+                  className="py-3 px-4 block w-full dark:bg-[#171717] shadow-sm focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
                 />
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function Example() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="py-3 px-4 block w-full dark:bg-black shadow-sm focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
+                  className="py-3 px-4 block w-full dark:bg-[#171717] shadow-sm focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
                   required
                 />
               </div>
@@ -148,7 +148,7 @@ export default function Example() {
                   name="phone-number"
                   id="phone-number"
                   autoComplete="tel"
-                  className="py-3 px-4 block w-full  dark:bg-black focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
+                  className="py-3 px-4 block w-full  dark:bg-[#171717] focus:ring-orange-500 focus:border-orange-500 border-gray-300 dark:border-gray-700 rounded-md"
                   placeholder="+1 (555) 987-6543"
                 />
               </div>
@@ -165,7 +165,7 @@ export default function Example() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="py-3 px-4 block w-full dark:bg-black shadow-sm focus:ring-orange-500 focus:border-orange-500 border border-gray-300 dark:border-gray-700 rounded-md"
+                  className="py-3 px-4 block w-full dark:bg-[#171717] shadow-sm focus:ring-orange-500 focus:border-orange-500 border border-gray-300 dark:border-gray-700 rounded-md"
                   required
                   defaultValue={""}
                 />
@@ -187,7 +187,7 @@ export default function Example() {
                       aria-hidden="true"
                       className={classNames(
                         agreed ? "translate-x-5" : "translate-x-0",
-                        "inline-block h-5 w-5 rounded-full bg-white  dark:bg-black shadow transform ring-0 transition ease-in-out duration-200"
+                        "inline-block h-5 w-5 rounded-full bg-white  dark:bg-[#171717] shadow transform ring-0 transition ease-in-out duration-200"
                       )}
                     />
                   </Switch>
@@ -195,12 +195,10 @@ export default function Example() {
                 <div className="ml-3">
                   <p className="text-base text-gray-500">
                     By selecting this, you agree to the{" "}
-                    <Link
-                      href="/termsandcondition"
-                      >
-                      <p
-                      className="font-medium dark:text-gray-400 text-gray-700 underline"
-                      >Privacy Policy</p>
+                    <Link href="/termsandcondition">
+                      <p className="font-medium dark:text-gray-400 text-gray-700 underline">
+                        Privacy Policy
+                      </p>
                     </Link>
                   </p>
                 </div>

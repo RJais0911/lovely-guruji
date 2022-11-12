@@ -2,10 +2,10 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import Layout from "./Layout";
 import Link from "next/link";
 
-export default function Example() {
+export default function Contact() {
   return (
     <Layout>
-      <div className="relative dark:bg-black bg-white">
+      <div className="relative dark:bg-[#171717]">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2  " />
         </div>
@@ -48,8 +48,8 @@ export default function Example() {
                 </div>
               </dl>
             </div>
-          </div>
-          <div className="bg-white dark:bg-black py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+          </div>{" "}
+          <div className=" bg-[#fcfcfc] dark:bg-[#171717] py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form
                 action={process.env.NEXT_FORM_URL}
@@ -67,7 +67,7 @@ export default function Example() {
                     minLength={3}
                     id="full-name"
                     autoComplete="name"
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
+                    className="block w-full  bg-[#fcfcfc] dark:bg-[#171717] dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                     placeholder="Full name"
                   />
                 </div>
@@ -81,7 +81,7 @@ export default function Example() {
                     name="email"
                     type="email"
                     autoComplete="email"
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
+                    className="block w-full  bg-[#fcfcfc] dark:bg-[#171717] dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                     placeholder="Email"
                   />
                 </div>
@@ -98,7 +98,7 @@ export default function Example() {
                     name="phone"
                     id="phone"
                     autoComplete="tel"
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
+                    className="block w-full  bg-[#fcfcfc] dark:bg-[#171717] dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border-gray-300 rounded-md"
                     placeholder="Phone"
                   />
                 </div>
@@ -110,7 +110,7 @@ export default function Example() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="block w-full dark:bg-black dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border border-gray-300 rounded-md"
+                    className="block w-full  bg-[#fcfcfc] dark:bg-[#171717] dark:border-gray-600 shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-orange-500 focus:border-orange-500 border border-gray-300 rounded-md"
                     placeholder="Message"
                     defaultValue={""}
                     minLength={20}
@@ -121,11 +121,14 @@ export default function Example() {
                   <input
                     required
                     type="checkbox"
-                    className="mr-3 outline-none dark:bg-black"
+                    className="mr-3  bg-[#fcfcfc] outline-none dark:bg-[#171717]"
                     id="checkbox"
                     name="checkbox"
                   />
-                  <label htmlFor="checkbox" className="text-base text-gray-500">
+                  <label
+                    htmlFor="checkbox"
+                    className="text-base  text-gray-500"
+                  >
                     Agree to {""}
                     <span className="font-ubuntu selection:text-gray-700 underline">
                       <Link href="/termsandcondition">

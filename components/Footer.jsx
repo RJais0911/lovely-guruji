@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="bg-white border-t-2 dark:border-0 dark:bg-black dark:text-white">
+    <footer className=" bg-[#fcfcfc] border-t-2 dark:border-0 dark:bg-[#171717] dark:text-white">
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
           <div className="px-5 py-2">
@@ -41,7 +41,9 @@ function Footer() {
         </nav>
         {/* eslint-disable-next-line @next/next/link-passhref */}
         <Link href="/feedback">
-          <p className="mt-8 text-base leading-6 text-center text-gray-400 cursor-pointer">Share feedback</p>
+          <p className="mt-8 text-base leading-6 text-center text-gray-400 cursor-pointer">
+            Share feedback
+          </p>
         </Link>
         <p className="mt-8 text-base leading-6 text-center text-gray-400">
           © 2022 Lovely Guruji . All rights reserved.

@@ -4,7 +4,7 @@ import Link from "next/link";
 /* This example requires Tailwind CSS v2.0+ */
 export default function Example() {
   return (
-    <div className="bg-white dark:bg-black">
+    <div className=" bg-[#fcfcfc] dark:bg-[#171717]">
       <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
           <span className="block">Ready to dive in?</span>

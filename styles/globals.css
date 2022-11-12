@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply dark:bg-black;
+    @apply dark:bg-[#171717]; 
     scroll-behavior: smooth;
   }
   img {
     @apply mx-auto my-5;
   }
-  input[type='number'] {
+  input[type="number"] {
     -webkit-appearance: none;
     margin: 0;
     -moz-appearance: textfield !important;
