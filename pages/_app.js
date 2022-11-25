@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
     <ThemeProvider attribute="class" defaultTheme="light">
       <Head>
         <title>Lovely Guruji</title>
+        <link rel="icon" type="image/x-icon" href="favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
           {/* eslint-disable-next-line @next/next/no-page-custom-font */}
           <link

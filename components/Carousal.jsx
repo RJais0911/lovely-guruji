@@ -16,16 +16,12 @@ function Carousal() {
           showIndicators={false}
         >
           <div>
-            <img src="1.png" />
+            <img src="https://ik.imagekit.io/jabedzaman/lovely-guruji/with_name_rRwLRIWPi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667418556099" />
             {/* <p className="legend">Legend 1</p> */}
           </div>
           <div>
-            <img src=" 1.png" />
+            <img src=" https://ik.imagekit.io/jabedzaman/lovely-guruji/Grow_Your_HtMCDGhro.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669387204476" />
             {/* <p className="legend">Legend 2</p> */}
-          </div>
-          <div>
-            <img src="1.png" />
-            {/* <p className="legend">Legend 3</p> */}
           </div>
         </Carousel>
       </div>

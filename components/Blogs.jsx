@@ -10,19 +10,12 @@ const data = [
     description: "A guide to become a successful full stack web developer",
   },
   {
-    title: "Web development Roadmap",
+    title: "Python 101",
     href: "/blogs/web-dev-roadmap",
-    author: "Jabed Zaman",
+    author: "Ruchi Jaiswal",
     date: "2022-09-01",
-    description: "A guide to become a successful full stack web developer",
-  },
-  {
-    title: "Web development Roadmap",
-    href: "/blogs/web-dev-roadmap",
-    author: "Jabed Zaman",
-    date: "2022-09-01",
-    description: "A guide to become a successful full stack web developer",
-  },
+    description: "A guide to basic python programming",
+  }, 
 ];
 
 export default function Blogs() {

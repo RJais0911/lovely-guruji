@@ -15,11 +15,21 @@ function Header() {
         <div className="p-5 font-poppins  mx-auto flex max-w-7xl text-lg items-center justify-between text-black dark:text-white">
           <div className="flex space-x-6">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://ik.imagekit.io/jabedzaman/lovely-guruji/logo_DExChackXZ?ik-sdk-version=javascript-1.4.3&updatedAt=1667510424119"
-              width={60}
-              alt=""
-            />
+              <Link href="/">
+                <a className="">
+            <p className="italic hover:scale-105 duration-200  uppercase">
+                  
+                  <span className="text-2xl">
+                    L
+                  </span>
+                  ovely 
+                  <span className="text-2xl ml-1">
+                    G
+                  </span>
+                  uruji
+            </p>
+                  </a>
+                </Link>
           </div>
           <div className="flex space-x-10 items-center ">
             <div className="dark:text-gray-100 font-ubuntu text-sm lg:text-lg text-gray-900 lg:hover:bg-gray-200/90 dark:lg:hover:bg-[#202020] duration-300 transform lg:hover:text-black dark:lg:hover:text-white px-2 py-1 rounded-lg  lg:inline hidden">
